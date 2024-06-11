@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>AML's Resort</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <!-- header -->
+   <header class="header">
+    <div class="name-header">
+        <p>AML's Resort</p>
+    </div>
+    <div class="nav-header">
+        <nav>
+            <a href="#facilities">Facilities</a>
+            <a href="#services">Services</a>
+            <a href="#rates">Rates</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </div>
+    <div class="booking-btn">
+        <a href="#reservation"> Book Now</a>
+    </div>
+    <div id="menu-btn" class="fas fa-bars"></div>
+   </header>
+   <!-- end -->
+
+   <!-- home -->
+   <section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide slide-1">
+                <div class="content">
+                    <h2>Discover Tranquility</h2>
+                    <p>Escape. Relax. Enjoy.</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide slide-2">
+                <div class="content">
+                  <h2>Discover Tranquility</h2>
+                  <p>Escape. Relax. Enjoy.</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide slide-3">
+                <div class="content">
+                  <h2>Discover Tranquility</h2>
+                  <p>Escape. Relax. Enjoy.</p>
+                </div>
+            </div>
+            <div class="swiper-slide slide slide-4">
+                <div class="content">
+                  <h2>Discover Tranquility</h2>
+                  <p>Escape. Relax. Enjoy.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide slide slide-5">
+                <div class="content">
+                  <h2>Discover Tranquility</h2>
+                  <p>Escape. Relax. Enjoy.</p>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</section>
+
+   <!-- end -->
+
+   <!-- booking system -->
+   <section class="booking-section">
+      <form action="">
+         <div class="booking-header">
+            <h2>Make Your Reservation</h2>
+        </div>
+         <div class="box">
+            <p>Date</p>
+            <input type="date" id="date" name="date" placeholder="Select date" required>    
+         </div>
+         <div class="box">
+            <p>Adults <span>(18+)</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10+</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Children <span>(0-17)</span></p>
+            <select name="child" id="" class="input">
+               <option value="1">1</option>
+               <option value="2">2</option>
+               <option value="3">3</option>
+               <option value="4">4</option>
+               <option value="5">5</option>
+               <option value="6">6</option>
+               <option value="7">7</option>
+               <option value="8">8</option>
+               <option value="9">9</option>
+               <option value="10">10+</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Special Requests</p>
+            <input type="requests" id="requests" name="requests" placeholder="Enter your requests" required>    
+         </div>
+         <input type="submit" value="Check Availability" class="btn-submit">
+      </form>
+   </section>
+
+   <!-- end -->
+
+
+   <!-- about -->
+
+   <section class="about" id="about">
+      <div class="row">
+         <div class="image">
+            <img src="images/about/logo.png" alt="">
+         </div>
+         <div class="content">
+            <h3>About Us</h3>
+            <p>Located in the town of Poras, Boac, Marinduque, AML's Resort offers a peaceful escape for travelers seeking relaxation in a serene natural setting.</p>
+            <p>As a family-owned establishment, we pride ourselves on providing guests with a warm and welcoming atmosphere. Our journey began with a passion for hospitality and a desire to create a retreat where guests can unwind and connect with nature.</p>
+            <p>At AML's Resort, our mission is simple: to ensure that every guest enjoys a memorable stay filled with comfort, relaxation, and personalized service. Whether you're here for a weekend getaway or a longer vacation, we strive to exceed your expectations and create lasting memories.</p>
+         </div>
+      </div>
+   </section>
+
+   <!-- end -->
+
+   <!-- facilities -->
+
+   <section class="facilities" id="facilities">
+      <h1 class="heading">Our Facilities</h1>
+      <div class="swiper facilities-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">500 PHP</span>
+                  <img src="images/facilities/bigcottage.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Big Cottage</h3>
+                  <p>Spacious luxury cottage, perfect for groups or families' memorable retreat.</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">4000 PHP</span>
+                  <img src="images/facilities/eventhall.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Event Hall</h3>
+                  <p>Elegant event space for unforgettable moments.</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">300 PHP</span>
+                  <img src="images/facilities/umbrella.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Banana Umbrella</h3>
+                  <p>Quaint, cozy banana umbrella cottage, a charming retreat for relaxation.</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">400 PHP</span>
+                  <img src="images/facilities/gazebo.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Gazebo</h3>
+                  <p>Explore the peaceful allure of our gazebo, nestled in nature for a serene getaway.</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">300 PHP</span>
+                  <img src="images/facilities/cottage1.jpg" alt="">
+               </div>
+               <div class="content">
+                  <h3>Cottage</h3>
+                  <p>Serene retreats amidst nature's embrace, perfect for unforgettable escapes</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+            <div class="swiper-slide slide">
+               <div class="image">
+                  <span class="price">VARY</span>
+                  <img src="images/facilities/mezzanine.jpg" alt="">
+                  <a href="#" class="fab fa-readme"></a>
+               </div>
+               <div class="content">
+                  <h3>Mezzanine</h3>
+                  <p>Rustic charm meets outdoor tranquility, perfect escape.</p>
+                  <a href="#" class="btn">Book Now</a>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+   <!-- end -->
+
+   <!-- services -->
+
+   <section class="services" id="services">
+      <h1 class="heading">Our Services</h1>
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/services/swimming.png" alt="">
+            <h3>Swimming Pool</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/services/food.png" alt="">
+            <h3>Food & Drink</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/services/karaoke.png" alt="">
+            <h3>Karaoke</h3>
+         </div>
+
+         <div class="box">
+            <img src="images/services/booking.png" alt="">
+            <h3>Resort Reservation</h3>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- rates -->
+
+   <section class="rates" id="rates">
+      <h1 class="heading">Our Rates</h1>
+      <div class="box-container">
+          <div class="left-column">
+              <h3 class="class-title">Entrance Fee</h3>
+              <table class="price-chart">
+                  <thead>
+                      <tr>
+                          <th>Category</th>
+                          <th>Age Range</th>
+                          <th>Price (PHP)</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Kids</td>
+                          <td>13 y.o below</td>
+                          <td>75 PHP</td>
+                      </tr>
+                      <tr>
+                          <td>Seniors</td>
+                          <td>60 y.o above</td>
+                          <td>75 PHP</td>
+                      </tr>
+                      <tr>
+                          <td>Adults</td>
+                          <td>14 - 59 y.o</td>
+                          <td>100 PHP</td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="right-column">
+              <h3 class="class-title">Our Packages</h3>
+              <div class="packages-container">
+                  <div class="package-box">
+                      <h3>Videoke</h3>
+                      <ul>
+                          <li>(rental)</li>
+                          <li>Half day - 500 PHP</li>
+                          <li>Whole day - 800 PHP</li>
+                      </ul>
+                  </div>
+                  <div class="package-box">
+                      <h3>Reservation</h3>
+                      <div class="price">
+                          <h4>20,000 PHP</h4>
+                          <ul>
+                              <li>Full coverage of resort</li>
+                              <li>(exclusive)</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  <!-- end -->
+
+   <!-- gallery -->
+
+   <section class="gallery" id="gallery">
+
+      <h1 class="heading">Our Gallery</h1>
+
+      <div class="swiper gallery-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 2.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 3.jpg" alt="">
+            </div>
+
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 4.jpg" alt="">
+            </div>
+
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 5.jpg" alt="">
+            </div>
+
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 6.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 7.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 8.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 9.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 10.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 11.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide slide">
+               <img src="images/gallery/image 12.jpg" alt="">
+            </div>
+
+
+            </div>
+
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- end -->
+
+
+   <!-- reservation -->
+
+   <section class="reservation" id="reservation">
+
+      <h1 class="heading">book now</h1>
+
+      <form action="">
+         <div class="container">
+
+            <div class="box">
+               <p>Name</p>
+               <input type="text" class="input" placeholder="Your Name" required>
+            </div>
+
+            <div class="box">
+               <p>Email</p>
+               <input type="text" class="input" placeholder="Your Email" required>
+            </div>
+
+            <div class="box">
+               <p>Check In</p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>Check Out</p>
+               <input type="date" class="input">
+            </div>
+
+            <div class="box">
+               <p>Adults <span>(18+)</span></p>
+               <select name="adults" class="input">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10+</option>
+                  
+               </select>
+            </div>
+
+            <div class="box">
+               <p>Children <span>(0-17)</span></p>
+               <select name="child" class="input">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10+</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>Room</p>
+               <select name="rooms" class="input">
+                  <option value="1">Ground (Outdoor Only)</option>
+                  <option value="2">Overnight</option>
+               </select>
+            </div>
+   
+         </div>
+
+         <input type="submit" value="Complete Booking" class="btn-reservation">
+
+      </form>
+
+   </section>
+
+   <!-- end -->
+
+   <!-- footer -->
+
+   <section class="footer">
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3>AML's Resort</h3>
+            <p>Welcome to AML's Resort, your ultimate escape into luxury and nature's embrace. Experience serenity, adventure, and unforgettable moments with us.</p>
+         </div>
+
+         <div class="box">
+            <h3>Quick Links</h3>
+            <a href="#home"> Home</a>
+            <a href="#"> Write to Us</a>
+            <a href="#"> Contact Us</a>
+            <a href="webpages/privacy policy.html"> Privacy Policy</a>
+         </div>
+
+         <div class="box">
+            <h3>Features</h3>
+            <a href="#facilities"> Facilities</a>
+            <a href="#services"> Services</a>
+            <a href="#rates"> Rates</a>
+            <a href="#gallery"> Gallery</a>
+         </div>
+
+         
+         <div class="box">
+            <h3>Follow Us</h3>
+            <div class="share">
+               <a href="#" class="fab fa-facebook-f"></a>
+               <a href="#" class="fab fa-instagram"></a>
+               <a href="#" class="fab fa-twitter"></a>
+               <a href="#" class="fab fa-pinterest"></a>
+            </div>
+         </div>
+
+      </div>
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+   <script src="js/script.js"></script>
+
+</body>
+</html>

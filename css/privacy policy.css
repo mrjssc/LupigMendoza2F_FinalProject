@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.privacy-policy {
+    padding: 40px;
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, 0.2);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+}
+
+.privacy-policy h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #006769;
+}
+
+.privacy-policy p {
+    margin-bottom: 15px;
+}
+
+.privacy-policy ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.privacy-policy ul li {
+    margin-bottom: 10px;
+}
+
+.privacy-policy h2 {
+    margin-top: 20px;
+    color: #006769;
+}
+
+.privacy-policy strong {
+    color: #006769;
+}
