@@ -145,7 +145,7 @@ section {
 }
 
 #menu-btn:hover {
-    color: var(--green);
+    color: var(--light-green);
 }
 
 /* end */
@@ -156,7 +156,7 @@ section {
     padding: 0;
 }
 
-.home .slide{
+.home .slide {
     min-height: 100vh;
     background-size: cover !important;
     background-position: center !important;
@@ -166,7 +166,7 @@ section {
     z-index: -1;
 }
 
-.home .slide .content{
+.home .slide .content {
     width: 80rem;
     text-align: center;
 }
@@ -743,31 +743,12 @@ section {
 /* end */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 
 @media (max-width:991px){
 
     html{
         font-size: 55%;
-    }
-
-    .header{
-        padding: 2rem 3rem;
     }
 
 }
@@ -778,24 +759,19 @@ section {
         display: inline-block;
     }
 
-    .header .navbar{
-        position: absolute;
-        top: 110%; right: -110%;
-        width: 30rem;
-        box-shadow: var(--box-shadow);
-        background: var(--white);
-        border-radius: .5rem;
+    .header .nav-header {
+        display: flex;
+        align-items: center;
     }
 
-    .header .navbar.active{
-        right: 2rem;
-        transition: .4s linear;
+    .header .booking-btn {
+        display: flex;
+        align-items: center;
     }
 
-    .header .navbar a{
-        font-size: 2rem;
-        margin: 2rem 2.5rem;
-        display: block;
+    .header .booking-btn a {
+        margin-top: 0;
+        margin-left: 1.5rem;
     }
 
     .home .slide .content{
@@ -817,11 +793,31 @@ section {
     }
 
     .home .slide .content{
-        width: 30rem;
+        width: 50rem;
     }
 
-    .home .slide .content h3{
-        font-size: 3rem;
+    .home .slide .content h2{
+        font-size: 6rem;
     }
 
+    .home .slide .content p{
+        font-size: 1.5rem;
+        white-space: nowrap;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .rates .box-container {
+        grid-template-columns: none; 
+    }
+
+    .rates .box-container .left-column,
+    .rates .box-container .right-column {
+        width: 100%; 
+    }
+
+    .rates .box-container .right-column {
+        margin-top: 2rem; 
+    }
 }
